@@ -27,7 +27,7 @@ The utils for data preprocessing for deep learning training are presented in the
 
 Example of notebooks for neural networks training are presented in [experiments](./experiments) directory.
 
-For the educational purposes, we also share the colab notebook with ML pipeline for the dominant species estimation in the setting where the forestry is splitted in individual stands and a model is trained to predict a single label for each stand 
+For the educational purposes, we also share the notebook [Forest_classification.ipynb](./Forest_classification.ipynb) with ML pipeline for the dominant species estimation in the setting where the forestry is splitted in individual stands and a model is trained to predict a single label for each stand that you can run in Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ego1S1zVzwn_FqoWXGZPD2mxWiZPPZ5P?usp=sharing)
 

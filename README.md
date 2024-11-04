@@ -19,15 +19,17 @@ The data includes a single satellite image from Sentinel-2 with 13 spectral band
 - spruce
 - pine
 
-We also provide merged maps for deciduous and conifer classes. In addition to forest masks, we share the IDs for individual forest stands, this information can be used for further pipeline development and results analysis.
+We also provide merged maps for deciduous and conifer classes. In addition to forest masks, we share the IDs for individual forest stands, this information can be used for further pipeline development and results analysis. You can also find the file with forest age in the same directory with [data](./data).
 
 ## Example notebook
 
-The utils for data preprocessing for deep learning training are presented in the [Forest species data](https://disk.yandex.ru/d/YtU6RyT5DjZszg) file.
+The utils for data preprocessing for deep learning training are presented in the [utils](./utils) directory.
 
-Example of notebooks for neural networks training are presented in [Forest species data](https://disk.yandex.ru/d/YtU6RyT5DjZszg)
+Example of notebooks for neural networks training are presented in [experiments](./experiments) directory.
 
-For the educational purposes, we also share the colab notebook with ML pipeline for the dominant species estimation in the setting where the forestry is splitted in individual stands and a model is trained to predict a single label for each stand [Forest species data](https://disk.yandex.ru/d/YtU6RyT5DjZszg)
+For the educational purposes, we also share the colab notebook with ML pipeline for the dominant species estimation in the setting where the forestry is splitted in individual stands and a model is trained to predict a single label for each stand 
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ego1S1zVzwn_FqoWXGZPD2mxWiZPPZ5P?usp=sharing)
 
 ## Cite in Bibtex
 
